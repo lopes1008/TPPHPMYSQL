@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ETUDIANT</title>
+</head>
+<body>
+	<form method="POST" action="ajouterEtudiant.php" enctype="multipart/form-data">
+		<table>
+			<tr>
+				<td>Nom:</td>
+				<td><input type="text" name="nom"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>Photo:</td>
+				<td><input type="file" name="photo"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Enregistrer"></td>
+			</tr>
+		</table>
+	</form>
+	<hr>
+	<a href="AfficherEtudiants.php">Afficher toutes les donnees enregistrees</a>
+</body>
+</html>
