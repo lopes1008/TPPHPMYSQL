@@ -25,6 +25,14 @@ $reponse = $pdo->query('SELECT * FROM etudiants');
 	<?php } ?>
 	</table>
 	<hr>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
+	<hr>
 	<a href="saisirEtudiant.html">Retour pour saisir un nouveau etudiant</a>
 </body>
 </html>
